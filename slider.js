@@ -102,10 +102,10 @@ function slider(cont,prev,next,card){
   function swipedone(swipedir){
   //swipedir contains either "none", "left", "right", "top", or "down"
   	console.log(swipedir);
-Ã‚ Ã‚ Ã‚ Ã‚ if (swipedir =='left')
-Ã‚ Ã‚ Ã‚ Ã‚ Ã‚ Ã‚ Ã‚ Ã‚ showNext();
+	if (swipedir =='left')
+		showNext();
     if (swipedir =='right')
-Ã‚ Ã‚ Ã‚ Ã‚ Ã‚ Ã‚ Ã‚ Ã‚ showPrev();
+		showPrev();
 	}
 }
   
